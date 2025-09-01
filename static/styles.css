@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Mogra&display=swap');
+
+:root {
+    font-family: Lexend, sans-serif;
+    background-color: #fce5c3;
+    line-height: 1.5;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: Mogra, sans-serif;
+}
+h1 {
+    color: #ff41ce;
+    font-size: 3rem;
+    margin-top: 15px;
+    margin-bottom: 22px;
+    text-decoration: underline;
+    text-decoration-thickness: .3rem;
+}
+body {
+    display: flex;
+    justify-content: center
+}
+main {
+    max-width: 1500px;
+    width: 90%;
+}
+img {
+    max-height: 60vh;
+    max-width: 1000px;
+}
+div:has(img) {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
